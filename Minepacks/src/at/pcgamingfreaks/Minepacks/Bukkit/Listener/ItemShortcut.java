@@ -66,7 +66,7 @@ public class ItemShortcut extends MinepacksListener
 		allowRightClickOnContainers = plugin.getConfiguration().isItemShortcutRightClickOnContainerAllowed();
 		preferredSlotId = plugin.getConfiguration().getItemShortcutPreferredSlotId();
 		blockItemFromMoving = plugin.getConfiguration().getItemShortcutBlockItemFromMoving();
-		openCommand = plugin.getLanguage().getCommandAliases("Backpack", "backpack")[0] + ' ' + plugin.getLanguage().getCommandAliases("Open", "open")[0];
+		openCommand = plugin.getLanguage().getCommandAliases("Bp", "bp")[0] + ' ' + plugin.getLanguage().getCommandAliases("Open", "open")[0];
 		messageDoNotRemoveItem = plugin.getLanguage().getMessage("Ingame.DontRemoveShortcut");
 
 		if(allowRightClickOnContainers)
